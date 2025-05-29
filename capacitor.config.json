@@ -1,0 +1,20 @@
+{
+  "appId": "com.anniversary.app",
+  "appName": "Anniversary App",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "backgroundColor": "#ffffff",
+      "androidSplashResourceName": "splash",
+      "androidSplashImageUrl": ""
+    },
+    "StatusBar": {
+      "style": "Dark",
+      "backgroundColor": "#ffffff",
+      "translucent": false,
+      "overlaysWebView": false
+    }
+  }
+}

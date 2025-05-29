@@ -1,0 +1,24 @@
+{
+  "productName": "Anniversary App",
+  "version": "1.0.0",
+  "tauri": {
+    "bundle": {
+      "identifier": "com.anniversary.app",
+      "icon": [
+        "icons/32x32.png",
+        "icons/128x128.png",
+        "icons/128x128@2x.png"
+      ],
+      "active": true
+    },
+    "security": {
+      "allowlist": {
+        "all": true
+      }
+    }
+  },
+  "build": {
+    "beforeDevCommand": "npm run dev",
+    "beforeBuildCommand": "npm run build"
+  }
+}
